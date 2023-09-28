@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include custom_mrp_report *.css
+recursive-include custom_mrp_report *.csv
+recursive-include custom_mrp_report *.html
+recursive-include custom_mrp_report *.ico
+recursive-include custom_mrp_report *.js
+recursive-include custom_mrp_report *.json
+recursive-include custom_mrp_report *.md
+recursive-include custom_mrp_report *.png
+recursive-include custom_mrp_report *.py
+recursive-include custom_mrp_report *.svg
+recursive-include custom_mrp_report *.txt
+recursive-exclude custom_mrp_report *.pyc
