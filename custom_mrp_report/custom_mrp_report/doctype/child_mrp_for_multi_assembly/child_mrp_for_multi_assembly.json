@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-09 10:24:39.780751",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "productionplan",
+  "prodplanwarehouse",
+  "itemname",
+  "itemcode",
+  "supplier",
+  "requiredbomqty",
+  "actualqty",
+  "virtual_warehouse",
+  "alloted_qty",
+  "material_to_request",
+  "materialrequestedqty",
+  "materialorderedqty",
+  "materialreceivedqty",
+  "material_ordered_but_pending_to_receive_qty",
+  "material_to_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "productionplan",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "ProductionPlan"
+  },
+  {
+   "fieldname": "prodplanwarehouse",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "ProdPlanWarehouse"
+  },
+  {
+   "fieldname": "itemname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ItemName"
+  },
+  {
+   "fieldname": "itemcode",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ItemCode"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Small Text",
+   "label": "Supplier"
+  },
+  {
+   "fieldname": "requiredbomqty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RequiredBOMQty"
+  },
+  {
+   "fieldname": "actualqty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ActualQTY"
+  },
+  {
+   "fieldname": "virtual_warehouse",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Virtual_Warehouse"
+  },
+  {
+   "fieldname": "alloted_qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Alloted_QTY"
+  },
+  {
+   "fieldname": "material_to_request",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material To Request"
+  },
+  {
+   "fieldname": "materialrequestedqty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MaterialRequestedQTY"
+  },
+  {
+   "fieldname": "materialorderedqty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MaterialOrderedQTY"
+  },
+  {
+   "fieldname": "materialreceivedqty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MaterialReceivedQTY"
+  },
+  {
+   "fieldname": "material_ordered_but_pending_to_receive_qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material Ordered but Pending to Receive QTY"
+  },
+  {
+   "fieldname": "material_to_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material to Order"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-28 10:48:56.244199",
+ "modified_by": "Administrator",
+ "module": "Custom Mrp Report",
+ "name": "Child MRP for Multi Assembly",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
